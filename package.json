@@ -1,0 +1,51 @@
+{
+  "name": "leaflet-dynamic-markercluster",
+  "version": "1.0.0",
+  "description": "Consists of a dynamic map with clustered pins. Check out the demo at https://gimdz.github.io/leaflet-dynamic-markercluster/ and zoom in and out to see the clusters",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc--noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GIMDZ/leaflet-dynamic-markercluster.git"
+  },
+  "keywords": [
+    "leaflet",
+    "map",
+    "markers",
+    "cluster",
+    "realtime"
+  ],
+  "author": "Giannina Miñano",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GIMDZ/leaflet-dynamic-markercluster/issues"
+  },
+  "homepage": "https://github.com/GIMDZ/leaflet-dynamic-markercluster#readme",
+  "devDependencies": {
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^24.3.1",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.2",
+    "sass": "^1.92.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@types/leaflet.markercluster": "^1.5.6",
+    "bootstrap": "^5.3.8",
+    "leaflet": "^1.9.4",
+    "leaflet-realtime": "^2.2.0",
+    "leaflet.markercluster": "^1.5.3"
+  }
+}
